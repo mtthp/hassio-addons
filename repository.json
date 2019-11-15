@@ -1,6 +1,6 @@
 
 {
-    "name": "mtthp addons repository",
-    "url": "https://github.com/mtthp/hassio-addons",
-    "maintainer": "Matthieu Petit <p.matthieu@me.com>"
+    "name": "rvbuelow addons repository",
+    "url": "https://github.com/rvbuelow/hassio-addons",
+    "maintainer": "Robin von Bülow <robinvobuelow@gmail.com>"
 }
