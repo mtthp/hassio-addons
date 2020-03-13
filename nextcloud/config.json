@@ -1,6 +1,6 @@
 {
     "name": "Nextcloud",
-    "version": "17.0.1",
+    "version": "18.0.2",
     "slug": "nextcloud",
     "description": "Nextcloud addon. Image based on upstream docker images. This is just a wrapper to pass environment variable to the container.",
     "url": "https://github.com/rvbuelow/hassio-addons/tree/master/nextcloud",
