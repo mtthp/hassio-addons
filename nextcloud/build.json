@@ -1,9 +1,9 @@
 {
   "build_from": {
-		"armhf" : "arm32v7/nextcloud:17.0.1",
-		"armv7": "arm32v7/nextcloud:17.0.1",
-		"aarch64": "arm64v8/nextcloud:17.0.1",
-		"amd64" : "amd64/nextcloud:17.0.1",
-		"i386" : "i386/nextcloud:17.0.1"
+		"armhf" : "arm32v7/nextcloud:18.0.2",
+		"armv7": "arm32v7/nextcloud:18.0.2",
+		"aarch64": "arm64v8/nextcloud:18.0.2",
+		"amd64" : "amd64/nextcloud:18.0.2",
+		"i386" : "i386/nextcloud:18.0.2"
   }
 }
