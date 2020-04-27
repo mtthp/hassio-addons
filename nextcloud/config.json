@@ -8,10 +8,9 @@
     "panel_icon": "mdi:cloud-sync",
     "startup": "services",
     "boot": "auto",
-    "docker_api": true,
-    "host_network": true,
-    "host_pid": true,
-    "apparmor": false,
+  "services": ["mysql:need"],
+  "hassio_api": true,
+  "hassio_role": "default",
     "ports": {
         "80/tcp": null
     },
