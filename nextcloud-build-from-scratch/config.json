@@ -1,0 +1,31 @@
+{
+  "name": "Next Cloud",
+  "version": "dev",
+  "slug": "hassio_nextcloud",
+  "description" : "An addon to add telegraf to nextcloud. Dev Branch",
+  "url" : "https://github.com/Sabuto/hassio-nextcloud-dev",
+  "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
+  "startup": "before",
+  "webui": "http://[HOST]:[PORT:80]",
+  "ingress": true,
+  "ingress_port": 1338,
+  "boot": "auto",
+  "hassio_api": true,
+  "hassio_role": "default",
+  "auth_api": true,
+  "docker_api": true,
+  "host_network": true,
+  "host_pid": true,
+  "apparmor": false,
+  "map": ["config:rw","ssl:rw","addons:rw","backup:rw","share:rw"],
+  "full_access" : true,
+  "options": {},
+  "schema": {},
+  "ports" : {
+    "80/tcp": null
+  },
+  "ports_description" : {
+    "6825/tcp": "Port for the web interface (not needed with ingress)"
+  },
+  "image" : "sabuto/{arch}-hassio-nextcloud"
+}
