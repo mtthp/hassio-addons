@@ -2,4 +2,5 @@
 {
     "name": "MephistoJB addons repository",
     "url": "https://github.com/MephistoJB/hassio-addons",
+    "maintainer": "MephistoJB"
 }
