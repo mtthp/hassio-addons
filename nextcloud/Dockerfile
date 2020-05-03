@@ -1,4 +1,4 @@
-ARG BUILD_FROM=arm32v7/nextcloud:16.0.3
+ARG BUILD_FROM=arm32v7/nextcloud:18.0.4
 FROM ${BUILD_FROM}
 
 # Copy root filesystem
@@ -37,9 +37,9 @@ LABEL \
     org.label-schema.description="Nextcloud add-on by Matthieu Petit" \
     org.label-schema.build-date=${BUILD_DATE} \
     org.label-schema.name="Nextcloud" \
-    org.label-schema.schema-version="1.0" \
-    org.label-schema.url="https://addons.community" \
-    org.label-schema.usage="https://github.com/hassio-addons/addon-example/tree/master/README.md" \
+    org.label-schema.schema-version="1.0.0" \
+    org.label-schema.url="https://github.com/mtthp/hassio-addons" \
+    org.label-schema.usage="https://github.com/mtthp/hassio-addons/tree/master/nextcloud/README.md" \
     org.label-schema.vcs-ref=${BUILD_REF} \
-    org.label-schema.vcs-url="https://github.com/hassio-addons/addon-example" \
-    org.label-schema.vendor="Community Hass.io Addons"
+    org.label-schema.vcs-url="https://github.com/mtthp/hassio-addons/" \
+    org.label-schema.vendor="mtthp Hass.io Add-ons"
