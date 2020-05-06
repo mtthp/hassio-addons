@@ -33,5 +33,6 @@
         "amd64",
         "armhf",
         "i386"
-    ]
+    ],
+    "image": "sabuto/{arch}-nextcloud"
 }
