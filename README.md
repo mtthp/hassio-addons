@@ -52,9 +52,6 @@ NEXTCLOUD_TRUSTED_DOMAINS: cloud.yourdomain.com   ##The Domain for your Nextclou
 - Add SSL with something like Nginx Proxy Manager Addon for example with the Port from step above.
 - Enjoy Nextcloud with SSL and without adding ":8888" to your Domain.
 
-### [Nextcloud](nextcloud)
-
-A safe home for all your data. Access & share your files, calendars, contacts, mail & more from any device, on your terms.
 
 ## Acknowledgement
 
