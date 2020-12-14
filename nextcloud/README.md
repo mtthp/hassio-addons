@@ -37,6 +37,7 @@ rights:
 ```
 
 - Configure Nextcloud addon accordingly :
+
 ```yaml
 MYSQL_DATABASE: nextcloud                         # The Database you created in step above.
 MYSQL_USER: nextcloud                             # The User you created in step above.

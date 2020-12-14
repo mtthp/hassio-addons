@@ -1,4 +1,4 @@
-ARG BUILD_FROM=arm32v7/nextcloud:18.0.4
+ARG BUILD_FROM
 FROM ${BUILD_FROM}
 
 # Copy root filesystem

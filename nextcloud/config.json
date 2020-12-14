@@ -1,6 +1,6 @@
 {
     "name": "Nextcloud",
-    "version": "18.0.4",
+    "version": "20.0.3",
     "slug": "nextcloud",
     "description": "Nextcloud addon. Image based on upstream docker images. This is just a wrapper to pass environment variable to the container.",
     "url": "https://github.com/mtthp/hassio-addons/tree/master/nextcloud",
@@ -32,6 +32,7 @@
         "aarch64",
         "amd64",
         "armhf",
+        "armv7",
         "i386"
     ]
 }
