@@ -1,6 +1,6 @@
 
 {
-    "name": "mtthp addons repository",
+    "name": "mtthp's Home Assistant add-ons",
     "url": "https://github.com/mtthp/hassio-addons",
     "maintainer": "Matthieu Petit <p.matthieu@me.com>"
 }
