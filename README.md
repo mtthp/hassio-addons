@@ -12,6 +12,10 @@ https://github.com/mtthp/hassio-addons
 
 A safe home for all your data. Access & share your files, calendars, contacts, mail & more from any device, on your terms.
 
+### [TooGoodToGo Watcher](toogoodtogo-watcher)
+
+Monitor your favorite TooGoodToGo businesses and get notified when their stock changes.
+
 ## Acknowledgement
 
 - [Patrick Streule](https://github.com/pstreule) for the [README](https://github.com/pstreule/hassio-addons/blob/master/README.md)
