@@ -1,0 +1,51 @@
+{
+  "name": "TooGoodToGo Watcher",
+  "version": "1",
+  "slug": "toogoodtogo-watcher",
+  "description": "Monitor your favorite TooGoodToGo businesses",
+  "url": "https://github.com/mtthp/hassio-addons/tree/master/toogoodtogo-watcher",
+  "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
+  "image": "mtthp/{arch}-addon-toogoodtogo-watcher",
+  "startup": "application",
+  "boot": "auto",
+  "options": {
+    "api": {
+      "credentials": {
+        "email": null,
+        "password": null
+      },
+      "session": {
+        "userId": null,
+        "accessToken": null,
+        "refreshToken": null
+      },
+      "headers": {
+        "User-Agent": "TooGoodToGo/20.6.1 (813) (iPhone/iPhone 7 (GSM); iOS 13.6; Scale/2.00)"
+      },
+      "pollingIntervalInMs": 30000,
+      "authenticationIntervalInMS": 3600000
+    },
+    "notifications": {
+      "console": {
+        "enabled": true,
+        "clear": false
+      },
+      "desktop": {
+        "enabled": false
+      },
+      "telegram": {
+        "enabled": false,
+        "botToken": "See README",
+        "chats": []
+      }
+    },
+    "messageFilter": {
+      "showUnchanged": false,
+      "showDecrease": false,
+      "showDecreaseToZero": false,
+      "showIncrease": false,
+      "showIncreaseFromZero": true
+    }
+  },
+  "schema": false
+}
