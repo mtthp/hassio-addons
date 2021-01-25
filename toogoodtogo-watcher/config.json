@@ -1,6 +1,6 @@
 {
   "name": "TooGoodToGo Watcher",
-  "version": "1",
+  "version": "3.2.1",
   "slug": "toogoodtogo-watcher",
   "description": "Monitor your favorite TooGoodToGo businesses",
   "url": "https://github.com/mtthp/hassio-addons/tree/master/toogoodtogo-watcher",
