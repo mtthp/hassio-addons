@@ -1,3 +1,6 @@
+## 3.3.3 - 2021-02-10
+- Update `node-toogoodtogo-watcher` to version 3.3.3.
+
 ## 3.2.1 - 2021-01-25
 ### Changed
 - Update `node-toogoodtogo-watcher` to version 3.2.1.
