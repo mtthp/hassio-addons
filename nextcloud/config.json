@@ -27,7 +27,16 @@
         "NEXTCLOUD_TABLE_PREFIX": "nc_",
         "NEXTCLOUD_TRUSTED_DOMAINS": "hassio.local"
     },
-    "schema": false,
+    "schema": {
+        "MYSQL_DATABASE": "str",
+        "MYSQL_USER": "str",
+        "MYSQL_PASSWORD": "str",
+        "MYSQL_HOST": "str",
+        "NEXTCLOUD_ADMIN_USER": "str",
+        "NEXTCLOUD_ADMIN_PASSWORD": "str",
+        "NEXTCLOUD_TABLE_PREFIX": "str",
+        "NEXTCLOUD_TRUSTED_DOMAINS": "str"
+    },
     "arch": [
         "aarch64",
         "amd64",
