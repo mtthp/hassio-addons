@@ -1,5 +1,8 @@
 # Hass.io Add-ons for Home Assistant
 
+> Time goes by and I don't have any more freetime to work on this project.
+I suggest you take a look at https://github.com/alexbelgium/hassio-addons/tree/master/nextcloud which is well maintained and up-to-date.
+
 ## Install
 
 These add-ons can be installed in Home Assistant by [configuring the following URL in the Hass.io panel](https://home-assistant.io/hassio/installing_third_party_addons/):
